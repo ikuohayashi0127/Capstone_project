@@ -4,4 +4,3 @@ For this project, I used the list of United States graduate business school rank
 
 Then, the geograohical information (latitude and longitude) of each university/school was obtained by using Nominatim, and the information was subsequently used for exploring the neighborhood with the Foursquare location data.
 
-
