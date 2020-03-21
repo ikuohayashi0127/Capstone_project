@@ -1,4 +1,4 @@
-<b>Introduction</b> 
+Introduction
 
 A friend of mine is working for a company that has a company-sponsored study program, where its employees can obtain an MBA degree. 
 My friend recently applied for the program and received an approval from the company. 
@@ -9,7 +9,7 @@ and my friend told me that he is indifferent among the top 50 schools because al
 
 Therefore, in this project, I compared the top 50 business schools in the US based on information about the neighborhood of each campus by using the cluster analysis. The result of the cluster analysis was used to guide my friend’s decision on which school(s) to apply for.
 
-<b>Data</b>
+Data
 
 For this project, I used the list of United States graduate business school rankings, which is available on Wikipedia (https://en.wikipedia.org/wiki/List_of_United_States_graduate_business_school_rankings). 
 Specifically, I use the ranking by US News in 2019 to obtain the list of the top 50 business schools because 
