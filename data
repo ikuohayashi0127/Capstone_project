@@ -1,7 +1,21 @@
-Data
+<b>Introduction</b> 
 
-For this project, I used the list of United States graduate business school rankings, which is available on Wikipedia (https://en.wikipedia.org/wiki/List_of_United_States_graduate_business_school_rankings). Specifically, I use the ranking by US News in 2019 to obtain the list of the top 50 business schools because (a) that is most recent, and (b) the ranking focuses on US business schools. 
+A friend of mine is working for a company that has a company-sponsored study program, where its employees can obtain an MBA degree. 
+My friend recently applied for the program and received an approval from the company. 
+Now he is searching for a business school to apply for, and asked me for advice.
 
-Then, the geograohical information (latitude and longitude) of each university/school was obtained by using Nominatim, and the information was subsequently used for exploring the neighborhood with the Foursquare location data.
+The company’s policy only requires that the business school for the program should be chosen from the top 50 business schools in the US, 
+and my friend told me that he is indifferent among the top 50 schools because all of them are great schools and that he would like to decide based on what is available around the campus of each business school/university. 
 
-Finally, the neghborhood data of each university/school was used to cluster the 50 schools to gain insigths on the similarity among the schools.
+Therefore, in this project, I compared the top 50 business schools in the US based on information about the neighborhood of each campus by using the cluster analysis. The result of the cluster analysis was used to guide my friend’s decision on which school(s) to apply for.
+
+<b>Data</b>
+
+For this project, I used the list of United States graduate business school rankings, which is available on Wikipedia (https://en.wikipedia.org/wiki/List_of_United_States_graduate_business_school_rankings). 
+Specifically, I use the ranking by US News in 2019 to obtain the list of the top 50 business schools because 
+(a) that is most recent, and (b) the ranking focuses on US business schools. 
+
+Then, the geograohical information (latitude and longitude) of each university/school was obtained by using Nominatim, 
+and the information was subsequently used for exploring the neighborhood with the Foursquare location data.
+
+Finally, the neghborhood data of each university/school was used to cluster the 50 schools to gain insigths on which schools have smilar neighborhood.
