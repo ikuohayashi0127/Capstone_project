@@ -1,5 +1,7 @@
 Data
-For this project, I use the list of graduate United States graduate business school rankings, which is available on Wikipedia. 
-Specifically, I use the ranking by US News in 2019 because (a) that is most recent, and (b) the ranking focuses on US business schools.  
 
-URL = https://en.wikipedia.org/wiki/List_of_United_States_graduate_business_school_rankings
+For this project, I used the list of United States graduate business school rankings, which is available on Wikipedia (https://en.wikipedia.org/wiki/List_of_United_States_graduate_business_school_rankings). Specifically, I use the ranking by US News in 2019 to obtain the list of the top 50 business schools because (a) that is most recent, and (b) the ranking focuses on US business schools. 
+
+Then, the geograohical information (latitude and longitude) of each university/school was obtained by using Nominatim, and the information was subsequently used for exploring the neighborhood with the Foursquare location data.
+
+
